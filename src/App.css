@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Creepster';
+	src: url('../fonts/Creepster-Regular.ttf');
+	src: url('../fonts/get_schwifty.ttf');
+}
+
+html, body {
+	background-image: url("./images/876590.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+	height: 100%;
+	margin: 0;
+	font-family: 'Creepster', cursive;
+}
+
+.app {
+ 
+}
+.app.appCange {
+	background-image: url('./images/potalGif.gif');
+}
+
+.divNav {
+	height: 10vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.routes {
+	width: 100vw;
+	height: 90vh;
+	justify-items: center;
+	align-content: center;
+	display: inline-grid;
+}

@@ -1,0 +1,38 @@
+.characterCard {
+	padding: 10px 10px 40px 10px;
+	background-color: #262c3ae3;
+	border-radius: 5%;
+	border: 1px solid white;
+}
+.buttonCharacter {
+	display: block;
+	font-size: 50px;
+	border: none;
+	background: none;
+	color:  red;
+	font-family: 'Anamorphic';
+}
+.buttonCharacter:hover {
+	cursor: pointer;
+}
+.imageCharacter {
+	margin: 0px 0px 0px 0px;
+	border-radius: 5%;
+	width: 200px;
+}
+.titleCharacter {
+	margin: 50px 15px 10px 15px;
+	color: #10b1c8;
+	-webkit-text-stroke: 1px #64985a;
+	font-family: 'Creepster', cursive;
+	font-size: 35px;
+}
+.dataCharacter {
+	margin: 5px 0px 5px 0px;
+	color: white;
+	font-family: 'Anamorphic';
+	font-size: 20px;
+}
+.linkCharacter {
+
+}

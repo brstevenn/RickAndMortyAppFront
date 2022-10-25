@@ -1,0 +1,62 @@
+.titleHome {
+	display: flex;
+	font-size: 28px;
+	font-weight: bold;
+}
+.RickTitle {
+	color: #B7E4F9;
+	margin-bottom: 5px;
+}
+.AndTitle {
+	color: #fcc7aa;
+	margin-bottom: 5px;
+}
+.MortyTitle {
+	color: #fafd7c;
+	margin-bottom: 5px;
+}
+.AppTitle {
+	color: #98e7e8;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+.portalHome {
+	background-image: url("../../images/pistola-portal.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.portalHome:hover {
+	cursor: pointer;
+}
+.textPistolaPortal {
+	margin: 0;
+	position: relative;
+	top: 20px;
+	left: 47px;
+	transform: skew(0deg, -11deg);
+	font-size: 22px;
+	font-weight: bold;
+}
+.textPistolaPortal {
+    color: transparent;
+	background-image: linear-gradient(to left, #437C37, #417E37, #7dc34f, #417b36, #4C9139);
+	-webkit-background-clip: text;
+	background-clip: text;
+	animation: color 3s linear infinite;
+	background-size: 500%;   
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}

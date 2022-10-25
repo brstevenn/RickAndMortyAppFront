@@ -1,0 +1,47 @@
+.navBar {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	font-size: 28px;
+}
+.navHome {
+	font-family: url("../../../fonts/get_schwifty.ttf");
+	color: white;
+	text-decoration: none;
+}
+.navHome.navHomeChange {
+	color: #6aba3b;
+}
+.navEpisode {
+	color: white;
+	text-decoration: none;
+}
+.navEpisodeChange {
+	color: #6aba3b;
+}
+.navCharacters{
+	color: white;
+	text-decoration: none;
+	width: max-content;
+	margin: 0px 30px 0px 30px;
+}
+.navCharactersChange {
+	color: #6aba3b;
+}
+.navInsertEpisode {
+	color: white;
+	text-decoration: none;
+	width: max-content;
+	margin: 0px 30px 0px 30px;
+} 
+.navInsertEpisodeChange {
+	color: #6aba3b;
+}
+.navInsertCharacter {
+	color: white;
+	text-decoration: none;
+	width: max-content;
+	margin: 0px 50px 0px 30px;
+}
+.navInsertCharacterChange {
+	color: #6aba3b;
+}

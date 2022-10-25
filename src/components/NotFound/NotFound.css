@@ -1,0 +1,12 @@
+.titleNotFound {
+	color: white;
+	font-size: 54px;
+	margin: 0px 60px 60px 60px;
+}
+.routes {
+	width: 100vw;
+	height: 90vh;
+	justify-items: center;
+	align-content: center;
+	display: inline-grid
+}

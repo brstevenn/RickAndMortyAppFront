@@ -1,0 +1,62 @@
+.episodes {
+	position: absolute;
+	height: auto;
+	width: inherit;
+	justify-content: center;
+	justify-items: center;
+	display: grid;
+	margin: 50px 10px 50px 10px;
+}
+.newEpisodesContain {	
+	margin: 20px 20px 50px 20px;
+}
+.newEpisodesTitle {
+	font-size: 50px;
+	font-family: 'Anamorphic';
+	margin: 10px;
+	color: #b5edfc;
+}
+.display {
+	display: none;
+}
+.newEpisodesCard {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+}
+h1 {
+	color: #10b1c8;
+	-webkit-text-stroke: 2px #64985a;
+	font-size: 80px;
+	font-family: 'Creepster', cursive;
+}
+h2 {
+	font-size: 25px;
+	font-family: 'Anamorphic';
+}
+h3 {
+	font-size: 25px;
+	font-family: 'Anamorphic';
+}
+.episodesPageContain {
+	display: flex;
+	gap: 20px;
+}
+.episodesCard {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 2% 2%;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 10px 10px 10px;
+}
+.episodesPageNav {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border: none;
+	border-radius: 15%;
+	font-family: 'Anamorphic';
+}
+.episodesPageNav:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.characters {
+	position: absolute;
+	height: auto;
+	width: inherit;
+	justify-content: center;
+	justify-items: center;
+	display: grid;
+	margin: 50px 10px 50px 10px;
+}
+.newCharactersContain {
+	margin: 20px 20px 20px 20px;
+}
+.newCharactersTitle {
+	font-size: 50px;
+	font-family: 'Anamorphic';
+	margin: 10px;
+	color: #b5edfc;
+}
+.display {
+	display: none;
+}
+h1 {
+	color: #10b1c8;
+	-webkit-text-stroke: 2px #64985a;
+	font-size: 80px;
+	font-family: 'Creepster', cursive;
+}
+h2 {
+	font-size: 25px;
+	font-family: 'Anamorphic';
+}
+h3 {
+	font-size: 30px;
+	font-family: 'Anamorphic';
+}
+.charactersPageContain {
+	display: flex;
+	gap: 20px;
+}
+.characterPageNav {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border: none;
+	border-radius: 15%;
+	font-family: 'Anamorphic';
+	margin-top: 20px;
+}
+.characterPageNav:hover {
+	cursor: pointer;
+}
+.characterPagePrevNav {
+	font-size: 70px;
+	background: none;
+	border: none;
+	font-family: 'Anamorphic';
+}
+.characterPagePrevNav:hover {
+	cursor: pointer;
+}
+.characterPageNextNav {
+	font-size: 70px;
+	background: none;
+	border: none;
+	font-family: 'Anamorphic';
+}
+.characterPageNextNav:hover {
+	cursor: pointer;
+}
+.charactersCard {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	gap: 1% 4%;
+	margin: 5%;
+	justify-content: center;
+}
+.numberNavTwo {
+	background-color: red;
+}

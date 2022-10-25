@@ -1,0 +1,11 @@
+.loader {
+	display: none;
+}
+
+.loader.loaderChange {
+	background-image: url("../../images/potalGif.gif");
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100vw;
+}

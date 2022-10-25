@@ -1,0 +1,58 @@
+.form {
+      display: grid;
+      gap: 5% 1%;
+      width: 50%;
+      height: 100%;
+      justify-items: center;
+      color: #98f1dd;
+      font-size: 20px;
+      margin: 0px 50px 50px 50px;
+}
+.label {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+      text-align: start;
+      font-family: 'Anamorphic';
+}
+.labelImage {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+      text-align: start;
+      font-family: 'Anamorphic';
+      letter-spacing: -4px;
+}
+.input {
+      background-color: #a2a7b39c;
+      border: 1px solid #262c3a;
+      color: black;
+      font-size: 25px;
+      font-family: 'Anamorphic';
+}
+.buttonForm {
+      width: auto;
+      height: 40px;
+      font-size: 20px;
+      margin: 20px;
+      font-family: 'Anamorphic';
+      padding: 5px;
+      background: none;
+      border: 1px solid white;
+      border-radius: 5%;
+      color: white;
+}
+.buttonForm:focus { 
+  padding: 30px; 
+  background: url("../../images/potalGif.gif"); 
+  background-position: center center;
+  background-size: cover;
+  color: transparent; 
+  height: 180%;
+  margin: 0px 0px 50px 0px;
+  transition-duration: 1s;
+  border: none;
+}
+.buttonForm:hover { 
+  cursor: pointer;
+}
