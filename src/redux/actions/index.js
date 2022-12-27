@@ -11,7 +11,8 @@ export const DELETE_EPISODE = "DELETE_EPISODE";
 export const DELETE_EPISODE_DB = "DELETE_EPISODE_DB";
 export const DELETE_EPISODE_STATE = "DELETE_EPISODE_STATE";
 
-const baseUrl = 'http://localhost:3001'
+//const baseUrl = 'http://localhost:3001' //Variable para produccion
+const baseUrl = 'https://rickandmortyappback-production.up.railway.app/'
 let idCharacter = 12,
 	idEpisode = 12;
 
