@@ -23,7 +23,7 @@ function App() {
       </div>
       <div className="routes" >
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route exact path="/" element={<Home />}/>
           <Route path="/episodes" element={<Episodes />}/>
           <Route path="/characters" element={<Characters />}/>
           <Route path="/character/:id" element={<CharacterDetail />} />
